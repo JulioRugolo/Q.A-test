@@ -12,12 +12,22 @@ npm
 - Adicionar um produto no carrinho
 - Realizar checkout
 
-## Readme do Repositório
+## Instalação
 
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
+1. Clone o repositório:
+   ```bash
+   git clone git@github.com:JulioRugolo/Q.A-test.git
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd Q.A-TEST
+   ```
+
+3. Execute o cypress para iniciar os testes:
+   ```bash
+   npm run test
+   ```
 
 >  This is a challenge by [Coodesh](https://coodesh.com/)
 
