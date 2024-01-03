@@ -3,6 +3,11 @@ const { beforeRunHook, afterRunHook } = require('cypress-mochawesome-reporter/li
 
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
+  reporterOptions: {
+      reportDir: 'cypress/reports/html',
+      reportTitle: 'Cypress Test Report',
+      open: true,  // Adiciona esta opção para abrir automaticamente
+  },
   e2e: {
     setupNodeEvents(on, config) {
       on('before:run', async (details) => {
